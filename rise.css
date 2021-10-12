@@ -1,0 +1,201 @@
+@charset "UTF-8";
+
+/**
+ * Custom theme by Michele Iannello
+ */
+
+@import url(assets/ubuntu/ubuntu.css);
+
+.reveal {
+  font-family: "Ubuntu", "Ubuntu-Light", Ubuntu, sans-serif;
+  font-size: 26px;
+  font-weight: normal;
+  color: #222;
+}
+
+.reveal .cell div {
+  max-width: 1440px;
+  vertical-align: top;
+}
+
+.reveal .code_cell div {
+  max-width: 1440px;
+  margin-left: 0px;
+}
+
+.reveal p {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 26px;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+  line-height: 1.3;
+  padding-left: 0.5em;
+}
+
+.reveal .tiny {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+  line-height: 1.3;
+  padding-left: 0.5em;
+}
+
+sup, sub {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.1em;
+}
+sub { 
+  top: 0.1em; 
+}
+
+.reveal h1 {
+  font-family: "Ubuntu-Bold", Ubuntu, sans-serif;
+  font-size: 48px;
+  color: rgb(0, 50, 50);
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 0.5em;
+  /* width: 1024px; */
+  /* width: 100%; */
+  min-width: 1440px - 0.5em;
+  height: 200px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #969696;
+  background: linear-gradient(to top left, rgba(0, 100, 0, 0.85), rgba(0, 200, 0, 0.85));
+  /* background-repeat: no-repeat; */
+  /* background-position: bottom right; */
+  /* background-size: 64px 100%; */
+  /* background-color: #f0f0f0; */
+  /* margin-top: 8px; */
+  /* margin-bottom: 0; */
+}
+
+.reveal h2 {
+  display: table-cell;
+  font-family: "Ubuntu-Medium", Ubuntu, sans-serif;
+  font-size: 38px;
+  color: #009600;
+  /* title-subtitle
+  padding-left: 0.5em;
+  border-right-style: solid;
+  border-right-width: 20px;
+  border-right-color: #ffffff; */
+}
+
+.reveal h3 {
+  display: table-cell;
+  font-family: "Ubuntu-Regular", Ubuntu, sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  color: #00aa00;
+  /* title-subtitle
+  padding-left: 1em;
+  border-left-style: solid;
+  border-left-width: 5px;
+  border-left-color: #969696; */
+}
+
+.reveal em {
+  font-weight: normal;
+  font-style: italic;
+  /* border-bottom: solid 1.4px; */
+}
+
+.reveal a:visited {
+  color: rgba(0, 150, 0, 0.8);
+  font-size: 26px;
+}
+
+.reveal a {
+  color: rgba(0, 150, 0, 1);
+  font-size: 26px;
+}
+
+.reveal b {
+  color: rgba(0, 150, 0, 1);
+  font-weight: 400;
+  font-size: inherit;
+}
+
+.reveal ol,
+.reveal dl,
+.reveal ul {
+  display: inline-block;
+  text-align: left;
+  margin: 0 0 0 0;
+}
+
+.reveal ul li {
+  font-size: 26px;
+  text-indent: 0em;
+  list-style-type: none;
+  margin-left: -56px;
+}
+
+.reveal ul li:before {
+  font-size: 26px;
+  content: "■";
+  padding-right: 14px;
+  color: #009600; }
+
+.reveal ul ul li:before {
+  font-size: 26px;
+  content: "■";
+  padding-right: 14px;
+  color: #bebebe; }
+
+  .reveal ul ul ul li:before {
+  font-size: 26px;
+  content: "■";
+  padding-right: 14px;
+  color: #bebebe; }
+
+
+.reveal blockquote {
+  width: 1240px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding: 0.25em 1em 0.35em 1em;
+  font-size: 20px;
+  font-style: normal;
+  border-left-style: solid;
+  border-left-width: 10px;
+  border-color: #bebebe;
+  background-color: #f0f0f0;
+}
+
+.reveal blockquote p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.reveal code {
+  background-color: #eff0f1;
+  /*font-size: 0.5em;*/
+}
+
+.reveal pre code {
+  font-size: 0.6em;
+  background-color: #f0f0f0;
+  max-height: 700px;
+}
+
+.reveal img {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.reveal .MathJax_Display {
+  margin-top: 1em; 
+  margin-bottom: 1em;
+}
+
+.reveal table {
+  font-size: 1em;
+  margin-bottom: 1em;
+}
